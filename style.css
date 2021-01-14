@@ -1,0 +1,156 @@
+body {
+    background: #333;
+    overflow: hidden;
+}
+.game {
+    width: 600px;
+    height: 600px;
+    margin: 200px 250px;
+    transition: .3s;
+}
+.line {
+    display: block;
+    background: white;
+    box-shadow: 0 0 10px white;
+    border-radius: 5px;
+}
+.line-1-1 {
+    width: 5px;
+    height: 600px;
+    margin-left: 200px;
+}
+.line-1-2 {
+    width: 5px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: -600px;
+}
+.line-2-1 {
+    width: 600px;
+    height: 5px;
+    margin-top: -400px;
+}
+.line-2-2 {
+    width: 600px;
+    height: 5px;
+    margin-top: 200px;
+}
+.btn {
+    display: block;
+    width: 170px;
+    height: 160px;
+    margin: 20px;
+    font-size: 150px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #333;
+    transition: .2s;
+}
+.for-line-1 {
+    display: flex;
+    margin-top: -400px;
+}
+.for-line-2 {
+    display: flex;
+}
+.for-line-3 {
+    display: flex;
+}
+.color-red {
+    color: rgb(228, 0, 0);
+}
+.color-blue {
+    color: rgb(0, 98, 255);
+}
+.none {
+    opacity: 0;
+}
+.sms {
+    background: rgb(255, 115, 0);
+    width: 522px;
+    padding: 20px;
+    font-size: 60px;
+    margin-top: -1000px;
+    margin-left: 1350px;
+    box-shadow: 0 0 20px rgb(255, 115, 0);
+    transition: .3s;
+}
+.links {
+    position: absolute;
+    width: 45%;
+    right: -3%;
+    margin-top: -700px;
+    transition: .5s;
+}
+.links-cl {
+    margin-left: 65px;
+    font-size: 60px;
+    padding: 3px 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #555;
+    transition: .1s
+}
+.links-cl:hover {
+    background: #fff;
+    box-shadow: 0 0 30px #fff;
+}
+.links-cl:active {
+    background: #333;
+    color: white;
+}
+.links-close {
+    right: -50%;
+}
+.center {
+    margin: 200px 620px;
+}
+.links-op {
+    z-index: -1;
+    letter-spacing: 5px;
+    position: absolute;
+    transform: rotate(90deg);
+    right: -524px;
+    margin-top: -580px;
+    font-size: 30px;
+    color: white;
+    background: black;
+    border: none;
+    padding: 40px 480px;
+    outline: none;
+    box-shadow: 0 0 40px black;
+    transition: .3s;
+}
+.links-op:hover {
+    box-shadow: 0 0 40px black, 0 0 60px black;
+}
+.links-btn {
+    font-size: 40px;
+    padding: 5px 9px;
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.links-btn:hover {
+    background: #fff;
+    box-shadow: 0 0 0;
+}
+.links-btn:active {
+    background: #333;
+}
+.links-text {
+    display: inline-block;
+    font-size: 40px;
+    padding: 3px 50px;
+    border-radius: 5px;
+    border: none;
+    background: #555;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    transition: .1s;
+}
+.links-text:hover {
+    background: #fff;
+}
